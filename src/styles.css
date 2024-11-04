@@ -1,0 +1,122 @@
+/* Global Styles */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #333;
+  --background-color: #f4f4f4;
+  --font-color: #333;
+  --input-border-color: #ccc;
+  --button-hover-color: #0056b3;
+  --container-background: #fff;
+}
+
+.App {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+/* Outer container styling */
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* App container styling */
+.app-container {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  background-color: var(--container-background);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+input[type="text"] {
+  padding: 12px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--font-color);
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Select dropdown styling */
+select {
+  padding: 10px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--font-color);
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Button styling */
+button {
+  padding: 12px 24px;
+  color: #fff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Response message styling */
+.response {
+  font-size: 16px;
+  color: var(--secondary-color);
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+/* Smaller font size for inline code */
+code {
+  font-size: 0.75em;
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
