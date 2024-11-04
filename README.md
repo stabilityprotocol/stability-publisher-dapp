@@ -10,7 +10,7 @@ A simple decentralized application (dApp) that allows users to submit messages t
 
 ## Demo
 
-[Live Demo Link](https://your-live-demo-url.com) _(Replace with actual deployment link if available)_
+[Live Demo Link](https://stabilityprotocol.github.io/stability-publisher-dapp/)
 
 ## Installation
 
