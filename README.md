@@ -1,6 +1,6 @@
 # Stability Blockchain Message Submission dApp
 
-A simple decentralized application (dApp) that allows users to submit messages to the Stability Blockchain, with the option to post to either the Testnet or Mainnet. The application is built in React and provides real-time feedback, including a link to view the transaction in the Stability block explorer.
+A simple decentralized application (dApp) and React frontend that allows users to submit messages to the Stability Blockchain using our experimental [ZKT RPC](https://docs.stble.io/developers/zkt), with the option to post to either the Testnet or Mainnet. The application is built in React and provides real-time feedback, including a link to view the transaction in the Stability block explorer.
 
 ## Features
 
@@ -10,7 +10,8 @@ A simple decentralized application (dApp) that allows users to submit messages t
 
 ## Demo
 
-[Live Demo Link](https://stabilityprotocol.github.io/stability-publisher-dapp/)
+[Live Demo Link 🚀](https://stabilityprotocol.github.io/stability-publisher-dapp/)
+[Code Sandbox Link 🏖️](https://codesandbox.io/p/github/stabilityprotocol/stability-publisher-dapp/main)
 
 ## Installation
 
