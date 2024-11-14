@@ -11,7 +11,6 @@ A simple decentralized application (dApp) and React frontend that allows users t
 ## Demo
 
 [Live Demo Link 🚀](https://stabilityprotocol.github.io/stability-publisher-dapp/)
-[Code Sandbox Link 🏖️](https://codesandbox.io/p/github/stabilityprotocol/stability-publisher-dapp/main)
 
 ## Installation
 
